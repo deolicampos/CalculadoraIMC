@@ -7,11 +7,11 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_calcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Button"
+        android:text="Calcular"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="155dp" />
 
@@ -24,6 +24,7 @@
         tools:layout_editor_absoluteX="1dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_peso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Digite seu peso. Ex: 70.200"
@@ -38,6 +39,7 @@
         tools:layout_editor_absoluteX="1dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_altura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
